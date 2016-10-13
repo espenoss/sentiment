@@ -7,7 +7,7 @@ after_success:
   - bash <(curl -s https://codecov.io/bash)
 
 notifications:
-	email:
-		- espenoss@gmail.com
-		- mariya.shchekanenko@gmail.com
-		on_failure: always
+ email:
+ - espenoss@gmail.com
+ - mariya.shchekanenko@gmail.com
+ on_failure: always
