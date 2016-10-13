@@ -20,7 +20,7 @@ public class Analyser {
 
     public Analyser() {
         Properties props = PropertiesUtils.asProperties(
-            "annotators", "tokenize, split, parse, sentiment");
+            "annotators", "tokenize, ssplit, parse, sentiment");
         pipeline = new StanfordCoreNLP(props);
     }
     
